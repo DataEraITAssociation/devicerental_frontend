@@ -15,7 +15,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
-import RentingCalender from '../RentingCalender/RentingCalender';
+import RentCalender from '../RentCalender/RentCalender';
 // import machineOne from '../../Assets/Images/machineOne.jpeg';
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -96,7 +96,7 @@ const ProductCard = (props) => {
                                 <iframe width="80%" height="100px" src={props.data.youTube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </ListItem>
                         </List>
-                        <RentingCalender />
+                        <RentCalender />
                     </CardContent>
                 </Collapse>
             </Card>
