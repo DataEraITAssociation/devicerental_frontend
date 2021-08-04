@@ -1,8 +1,7 @@
 # DeviceRental_frontend
-![Main Page]()
+![Main Page](https://github.com/DataEraITAssociation/devicerental_frontend/blob/add-readme-alex/src/Assets/Images/Demo/Screen%20Shot%202021-08-03%20at%207.17.30%20PM.png)
 ---
 - [DeviceRental_frontend](#devicerental_frontend)
-  - [!Main Page](#)
   - [Description](#description)
       - [Technologies](#technologies)
 
