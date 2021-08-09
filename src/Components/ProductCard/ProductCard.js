@@ -16,6 +16,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
 import RentCalender from '../RentCalender/RentCalender';
+import RentDialog from '../RentDialog/RentDialog';
 // import machineOne from '../../Assets/Images/machineOne.jpeg';
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -93,10 +94,10 @@ const ProductCard = (props) => {
                         </Typography>
                         <List component="nav" aria-label="main mailbox folders">
                             <ListItem button component="a" href="https://www.youtube.com/watch?v=Bg_tJvCA8zw">
-                                <iframe width="80%" height="100px" src={props.data.youTube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="80%" height="100px" src={props.data.youTube} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </ListItem>
                         </List>
-                        <RentCalender />
+                        <RentDialog />
                     </CardContent>
                 </Collapse>
             </Card>
